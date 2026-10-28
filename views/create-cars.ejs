@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>create cars</h1>
+        <%- include('./partials/navbar')%>
+    <h1>create new car</h1>
+    <form action="/cars" method="post">
+      <label for="name">name:</label>
+      <input name="name" id="name" type="text" />
+
+      <label for="brand">car brand</label>
+      <input name="brand" id="brand" type="" />
+      <button>create cars</button>
+  </body>
+</html>
